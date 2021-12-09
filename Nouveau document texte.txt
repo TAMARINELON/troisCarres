@@ -1,0 +1,88 @@
+EXO1
+Variables A;B en Entier                  
+ A <- 1
+ B <- A+3
+ A <- 3
+Fin
+A=3, B=4
+
+EXO2
+Variables A,B,C en Entier
+ A <- 5
+ B <- 3
+ C <- A+B
+ A <- 2
+ C <- B-A
+Fin
+A=2, B=3, C=1
+
+EXO3
+ Variables A,B en Entier
+ Début
+ A <- 5
+ B <- A+4
+ A <- A+1
+ B <- A-4
+Fin
+A=6, B=2
+
+EXO4
+ A;B:C en Entier
+Début
+ A <- 3
+ B <- 10
+ C <- A+B
+ B <- A+B
+ A <- C
+Fin
+A=13, B=13, C=13
+
+EXO5
+ Variables A,B en Entier
+Début
+ A <- 5
+ B <- 2
+ A <- B
+ B<- A
+Fin
+A=2, B=5
+
+EXO6
+Variables A,B,C  en Entier
+Début
+C <- A
+A <- B
+B <- C
+Fin
+
+EXO7
+Variables A, B, C, D en entier
+Début
+D <- A
+A <- C
+C <- B
+B <- D
+Fin
+
+EXO8
+Variables A, B; C en Caractères
+Début
+A <- "432"
+B <- "12"
+C <- A+B
+Fin
+Algorithme produit une erreur
+
+
+EXO9
+Variables A, B, C en Cractères
+Début
+A <- "423"
+B <- "12"
+C <- A & B
+Fin
+ C prend la valeure "42312"
+
+
+
+ 
