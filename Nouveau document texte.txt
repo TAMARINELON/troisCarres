@@ -1,88 +1,82 @@
-EXO1
-Variables A;B en Entier                  
- A <- 1
- B <- A+3
- A <- 3
-Fin
-A=3, B=4
-
-EXO2
-Variables A,B,C en Entier
- A <- 5
- B <- 3
- C <- A+B
- A <- 2
- C <- B-A
-Fin
-A=2, B=3, C=1
-
-EXO3
- Variables A,B en Entier
- Début
- A <- 5
- B <- A+4
- A <- A+1
- B <- A-4
-Fin
-A=6, B=2
-
-EXO4
- A;B:C en Entier
+Exo1
+ Variable nb en Entier
 Début
- A <- 3
- B <- 10
- C <- A+B
- B <- A+B
- A <- C
+ Ecrire " Donnez moi un nombre"
+ Lire nb
+ Si nb>0 Alors
+ Ecrire "Le nombre donné est positif"
+ Sinon Ecrire" Le nombre donn" est négatif"
+FinSi
 Fin
-A=13, B=13, C=13
 
-EXO5
- Variables A,B en Entier
+Exo2
+Variables nb1, nb2 en Entier
+Debut
+ Ecrire "Donnez un nombre1"
+ Lire nb1
+ Ecrire "Donnez un nombre2"
+ Lire nb2
+ Si (nb1<0 etnb2<0) ou (nb1>0 et nb2>0)Alors
+ Ecrire"Le produit des deux nombres est positif"
+ Sinon Ecrire "Leproduit des deux nombres est négatif"
+ FinSi
+ Fin
+
+Exo3
+Variables mot1, mot2, mot3 en Caractères
 Début
- A <- 5
- B <- 2
- A <- B
- B<- A
+Ecrire "Renrez un mot"
+Lire mot1
+Ecrire "Rentrez un nouveau mot"
+Lire mot2
+Ecrire "Donnez moi le toisiem mot"
+Lire mot3
+Si (mot1<mot2 et mot2<mot3) Alors
+Ecrire " Les noms sont dans l'ordre alphabétique"
+SiNon Ecrire "'Les mots ne somt pas dans l'ordre alphabétique"
+FinSi
 Fin
-A=2, B=5
 
-EXO6
-Variables A,B,C  en Entier
+Exo4
+Variables nb en Entier
 Début
-C <- A
-A <- B
-B <- C
+Ecrire "Donnez moi un nombre"
+Lire nb
+Si nb<0 Alors 
+Ecrire "Le nombre est négafif"
+SINONSI  nb=0 Alors
+Ecrire "Le nomre est nule "
+SiNon Ecrire "Le nombre est positif"
+FinSi
 Fin
 
-EXO7
-Variables A, B, C, D en entier
+Exo5
+Variables nb1, nb2 en Entier
 Début
-D <- A
-A <- C
-C <- B
-B <- D
+Ecrire "Donnez un nombre"
+Lire nb1
+Ecrer "Donner un autre nombre"
+Lire nb2
+Si (nb1<0 et nb2<0) ou (nb1>0 et nb2>0) Alors
+Ecrire 'Le produit des duex nombre est positif"
+SiNonSi nb1=0 ou nb2=0 Alors 
+Ecrire "Le produit sera nule"
+SiNon Ecrire "Le produit des deux nombres est négatis."
+FinSi
 Fin
 
-EXO8
-Variables A, B; C en Caractères
+Exo6
+Variable age enEntier
 Début
-A <- "432"
-B <- "12"
-C <- A+B
+Ecrire "Donnez un age"
+Si age>=12 Alors
+Ecrire "Vous êtes cadet"
+Sinon Si age >=10 Alors
+Ecrire "Vous etes minime"
+Sinon Si age>=8 Alors
+Ecrire "Vous etes pupille"
+Sinon Si age >=6 Alors 
+Ecrire "Vous etes cadet"
+Sinon Ecrire "Catégorie non pris en compte"
+FinSi
 Fin
-Algorithme produit une erreur
-
-
-EXO9
-Variables A, B, C en Cractères
-Début
-A <- "423"
-B <- "12"
-C <- A & B
-Fin
- C prend la valeure "42312"
-
-
-
- 
